@@ -1,0 +1,15 @@
+@import '../../../assets/css/App.scss';
+
+.voucher{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+    p{
+        font-family: 'Grand Hotel';
+        font-size: 10rem;
+        margin-top: -5%;
+        margin-bottom: -2.5%;
+    }
+}

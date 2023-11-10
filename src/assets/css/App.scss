@@ -1,0 +1,26 @@
+@import "./_variables.scss";
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $dark-blue;
+  color: white;
+}
+button{
+  padding: 0.5% 1.5%;
+  background-color: $light-blue;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+}
+button:hover{
+  border: 2px solid $dark-pastel-green;
+  background-color: $dark-blue;
+  padding: 0.4% 1.4%;
+  color: $dark-pastel-green;
+  cursor: pointer;
+}
+
+

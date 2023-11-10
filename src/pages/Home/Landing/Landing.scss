@@ -1,0 +1,50 @@
+@import "./../../../assets/css/App.scss";
+
+.landing{
+    display: flex;
+    flex-direction: column;
+    background: url(../../../assets/svg/wave-up.svg) no-repeat bottom,
+    url(../../../assets/svg/coffee.png) no-repeat right bottom;
+    background-size: auto, 50% 90%;
+    // background-position: center bottom, right bottom;
+    // background-repeat: no-repeat, no-repeat;
+    height: fit-content;
+    // background-color: white;
+    div {
+        width: 90%;
+        padding:0% 2.5%;
+        margin-bottom: 15%;
+        >p{
+            margin-top: 0;
+        }
+        >:nth-child(1){
+            
+            font-family: 'Grand Hotel', cursive;
+            font-size: 13rem;
+        }
+        >:nth-child(2){
+            font-size: 3.5rem;
+            margin-top: -15%;
+        }
+        >:nth-child(3){
+            width: 40%;
+            font-size: 1rem;
+        }
+        #coffe-btn{
+            padding: 0.5% 1.5%;
+            background-color: $light-blue;
+            border: none;
+            border-radius: 15px;
+            color: white;
+            font-size: 2rem;
+            font-weight: 600;
+        }
+        #coffe-btn:hover{
+            border: 2px solid $dark-pastel-green;
+            background-color: $dark-blue;
+            padding: 0.4% 1.4%;
+            color: $dark-pastel-green;
+        }
+    }
+    
+}
