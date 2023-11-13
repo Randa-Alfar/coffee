@@ -6,10 +6,23 @@
     background: url(../../../assets/svg/wave-up.svg) no-repeat bottom,
     url(../../../assets/svg/coffee.png) no-repeat right bottom;
     background-size: auto, 50% 90%;
-    // background-position: center bottom, right bottom;
-    // background-repeat: no-repeat, no-repeat;
+    position: relative;
     height: fit-content;
-    // background-color: white;
+    .flow{
+        position:absolute;
+        z-index: -1;
+    }
+    #cup{
+        left:60%;
+    }
+    #bean{
+        left:50%;
+        top:30%
+    }
+    #mocha{
+        left:30%;
+        top:65%
+    }
     div {
         width: 90%;
         padding:0% 2.5%;

@@ -1,4 +1,7 @@
 import "./Landing.scss"
+import cup from '../../../assets/svg/coffeecup.svg'
+import bean from '../../../assets/svg/bean.svg'
+import mocha from '../../../assets/svg/mocha.svg'
 const Landing = () =>{
     return(
         <div className="landing">
@@ -12,6 +15,9 @@ const Landing = () =>{
                 
                 <button id="coffe-btn">Order Now</button>
             </div>
+            <div className="flow" id="cup"><img src={cup}/></div>
+            <div className="flow" id="bean"><img src={bean}/></div>
+            <div className="flow" id="mocha"><img src={mocha}/></div>
             
         </div>
     );
