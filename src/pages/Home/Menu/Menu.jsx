@@ -2,6 +2,7 @@ import './Menu.scss'
 import coffe2 from '../../../assets/svg/coffe2.png'
 import coffe3 from '../../../assets/svg/coffe3.png'
 import coffe4 from '../../../assets/svg/coffe4.png'
+
 const Menu = () => {
     return(
         <div className='menu'>
@@ -48,7 +49,25 @@ const Menu = () => {
                     This results in a very nutty and sweet taste profile much different from traditional coffee.</p>
                 </div>
             </div>
+            {/* some icon dicoration */}
+            <div className="flow" id="cup1"></div>
+            <div className="flow" id="cup2"></div>
+            <div className="flow" id="cup3"></div>
 
+            <div className="flow" id="bean1"></div>
+            <div className="flow" id="bean2"></div>
+            <div className="flow" id="bean3"></div>
+            <div className="flow" id="bean4"></div>
+            <div className="flow" id="bean5"></div>
+
+            <div className="flow" id="bean6"></div>
+            <div className="flow" id="bean7"></div>
+            <div className="flow" id="bean8"></div>
+            <div className="flow" id="bean9"></div>
+
+            <div className="flow" id="mocha1"></div>
+            <div className="flow" id="mocha2"></div>
+            <div className="flow" id="mocha3"></div>
         </div>
     );
 }

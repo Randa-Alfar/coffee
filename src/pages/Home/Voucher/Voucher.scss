@@ -6,6 +6,36 @@
     justify-content: center;
     align-items: center;
     padding-bottom: 5%;
+    position: relative;
+    .flow{
+        position:absolute;
+        z-index: 1;
+        height: 110px;
+        width: 100px;
+    }
+    #cup{
+        left:10%;
+        top:50%;
+        transform: rotate(330deg);
+        background: url(../../../assets/svg/coffeecup.svg) no-repeat;
+        background-size: 80% 100%;
+    }
+    #bean{
+        left:87.5%;
+        top:5%;
+        transform: rotate(300deg);
+        background: url(../../../assets/svg/bean.svg) no-repeat;
+        background-size: 50%;
+    }
+    #mocha{
+        width: 155px;
+        height: 160px;;
+        left:82.5%;
+        top:72.5%;
+        transform: rotate(60deg);
+        background: url(../../../assets/svg/mocha.svg) no-repeat;
+        background-size: 75%;
+    }
     p{
         font-family: 'Grand Hotel';
         font-size: 10rem;

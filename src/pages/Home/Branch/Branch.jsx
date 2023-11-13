@@ -39,6 +39,10 @@ const Branch = () =>{
                     })
                 }
             </div>
+            <div className="flow" id="cup"></div>
+            <div className="flow" id="bean1"></div>
+            <div className="flow" id="bean2"></div>
+            <div className="flow" id="mocha"></div>
         </div>
     );
 }
