@@ -61,3 +61,15 @@
     }
     
 }
+@media (max-width: 1024px ) or (min-width:768px){
+    .landing{
+        background-size: 100% ,65% 90%;
+        z-index: 1;
+        margin-bottom: -1%;
+        #mocha{
+            left:20%;
+            top:65%
+        }
+
+    }
+}

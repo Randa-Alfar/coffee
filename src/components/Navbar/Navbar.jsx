@@ -11,6 +11,10 @@ const Navbar = () =>{
                 <span>Shop</span>
                 <span>Contact</span>
             </div>
+            <div className='login'>
+                <span>Sign up</span>
+                <span>Log in</span>
+            </div>
             <div className="logo"><img src={logo}/></div>
         </div>
     );
