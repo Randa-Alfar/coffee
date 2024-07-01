@@ -21,5 +21,20 @@
             cursor: pointer;
         }
     }
-    
+    .login{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 30%;
+        color: $light-blue;
+        font-family: 'Grand Hotel', cursive;
+        font-size: 3rem;
+        
+        span:hover{
+            color: $amber-orange;
+            cursor: pointer;
+        }
+
+    }
+
 }
