@@ -1,5 +1,6 @@
 import './Navbar.scss'
 import logo from '../../assets/svg/logo.svg'
+import { Link } from 'react-router-dom';
 const Navbar = () =>{
     return(
         <div className="navbar">
@@ -12,8 +13,8 @@ const Navbar = () =>{
                 <span>Contact</span>
             </div>
             <div className='login'>
-                <span>Sign up</span>
-                <span>Log in</span>
+                <span><Link to="login">Log in</Link></span>
+                <span><Link to="signup">Sign up</Link></span>
             </div>
             <div className="logo"><img src={logo}/></div>
         </div>

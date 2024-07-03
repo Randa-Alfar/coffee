@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: space-between;
     position: relative;
+    width: 100%;
     .flow{
         position:absolute;
         z-index: 1;
@@ -120,7 +121,7 @@
         margin-bottom: 4rem;
         height: fit-content;
         gap: 2rem;
-        width: 95%;
+        width: 100%;
         padding: 1% 4.5%;
         font-weight: 300;
         >div{
@@ -181,7 +182,7 @@
         .category{
             margin-bottom: 2rem;
             gap: 0rem;
-            width: 90%;
+            width: 100%;
             padding: 1% 5.5%;
             font-weight: 300;
             >div>img{
