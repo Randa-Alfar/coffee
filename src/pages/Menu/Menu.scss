@@ -1,0 +1,96 @@
+
+@import './../../assets/css/App.scss';
+
+#menu-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background:url(../../assets/svg/menuBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:space-around;
+    #cart , #menu , #filter {
+        display: flex;
+        flex-direction: column;
+    }
+    #menu {
+        width: 75%;
+    }
+    #menu-header{
+        display: flex;
+        justify-content: space-around;
+        >span:nth-child(2){
+            font-size: 7rem;
+            font-family: "Grand Hotel", cursive;
+            text-shadow: 0rem 0rem 2rem $deep-orange;
+            color: $deep-orange;
+        }
+    }
+    .categories-container{
+        display: flex;
+        flex-direction: column;  
+        width: 100%;
+        gap: 1rem;
+    }
+    .category-container{
+        display: flex;
+        flex-direction: row; 
+        flex-wrap: wrap;
+        // border: 1px solid $light-gray
+    }
+    .category-name{
+        display: flex;
+        flex: 40%;
+        height: auto;
+        background-color: black;
+        justify-content: center;
+        align-items: center;
+        font-family: "Grand Hotel", cursive;
+        font-size: 3rem;
+    }
+    // the container of the items section
+    .items-container{
+        display: flex;
+        flex: 60%;
+        flex-wrap: wrap;
+        flex-flow:  wrap;
+        flex-direction: column;
+        background-color: rgba(black, 0.6);
+        text-transform: capitalize;
+    }
+    // the container of items that contain items and extras
+    .menu-item{
+       display: flex;
+       flex-direction: column;
+       padding: 2%;
+       
+    }
+    .menu-item:hover{
+        background-color: rgba($deep-orange, 0.2);
+        cursor: pointer;
+    }
+    // the item itself
+    .m-item{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-left: 2px solid $deep-orange;
+        padding-left: 2%;
+        font-size: 1.5rem;
+    }
+    .m-price{
+        >span{
+            padding-left: 2%;
+        }
+    }
+    .extra-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-left: 2px solid $deep-orange;
+        padding-left: 6%;
+        font-size: 1rem;
+     }
+
+}
