@@ -4,6 +4,7 @@ import Login from './pages/Login/Login';
 import Signup from './pages/Signup/Signup';
 import { BrowserRouter, Routes, Route} from "react-router-dom";
 import React, { Component } from 'react' ;
+import Menu from './pages/Menu/Menu';
 class App extends Component{
   render(){
     return (
@@ -15,6 +16,7 @@ class App extends Component{
           <Route exact path='/signup' element={<Signup/>} />
           <Route exact path='/login/signup' element={<Signup/>} />
           <Route exact path='/signup/login' element={<Login/>} />
+          <Route exact path='/menu-management/menu' element={<Menu/>} />
         </Routes>
       </BrowserRouter>
     );

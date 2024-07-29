@@ -18,10 +18,10 @@ const Signup = () => {
             <div className='signup-container'>
                 <form onSubmit={handleSubmit}>
                     <span>Sign Up</span>
-                    <input type='fname' id='fname' placeholder='First name' name='fname' value={formData.fname} onClick={handleChange}/>
-                    <input type='lname' id='lname' placeholder='Last name' name='lname' value={formData.lname} onClick={handleChange}/>
-                    <input type='email' id='email' placeholder='Email' name='email' value={formData.email} onClick={handleChange}/>
-                    <input type='password' id='pasword' placeholder='Password' name='password' value={formData.password} onClick={handleChange}/>
+                    <input type='text' id='fname' placeholder='First name' name='fname' value={formData.fname} onChange={handleChange}/>
+                    <input type='text' id='lname' placeholder='Last name' name='lname' value={formData.lname} onChange={handleChange}/>
+                    <input type='email' id='email' placeholder='Email' name='email' value={formData.email} onChange={handleChange}/>
+                    <input type='password' id='pasword' placeholder='Password' name='password' value={formData.password} onChange={handleChange}/>
                     <div>
                         <span>Already have an account? <Link to='login'>Log In!</Link></span>
                     </div>
